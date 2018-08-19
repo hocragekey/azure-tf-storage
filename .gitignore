@@ -8,3 +8,6 @@
 # .tfvars files
 beconf.tfvars
 
+# local config
+init.sh
+
