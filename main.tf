@@ -19,7 +19,7 @@ resource "azurerm_kubernetes_cluster" "spark-k8s" {
   agent_pool_profile {
     name            = "default"
     count           = "${var.agent_count}"
-    vm_size         = "Standard_A0"
+    vm_size         = "Standard_A2_v2"
     os_type         = "Linux"
     os_disk_size_gb = 30
   }

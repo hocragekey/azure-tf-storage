@@ -11,3 +11,6 @@ beconf.tfvars
 # local config
 init.sh
 
+# kubeconfig
+kubeconfig
+
